@@ -46,3 +46,7 @@ func power(a, b, mod int64) (res int64) {
 $O(\log n)$
 
 We have to compute $\log n$  powers of $a$ , and then have to do at most $\log n$  multiplications to get the final answer from them.
+
+## Miscellaneous
+
+$a^{10x+y} = (a^x)^{10} \cdot a^y$
